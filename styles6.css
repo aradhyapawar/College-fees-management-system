@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+.bank-details {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.details {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: calc(50% - 20px);
+    max-width: 400px;
+}
+
+.details h3 {
+    color: #007bff;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.details p {
+    color: #666;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.payment-instructions {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.payment-instructions h2 {
+    color: #007bff;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.payment-instructions p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.payment-instructions ol {
+    list-style-type: decimal;
+    margin-left: 20px;
+}
+
+.payment-instructions li {
+    margin-bottom: 5px;
+}
+
+footer {
+    background-color: #0056b3;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
